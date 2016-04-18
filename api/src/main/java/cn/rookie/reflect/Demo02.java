@@ -1,6 +1,7 @@
 package cn.rookie.reflect;
 
-import cn.rookie.api.reflect.bean.User;
+
+import cn.rookie.reflect.bean.User;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
