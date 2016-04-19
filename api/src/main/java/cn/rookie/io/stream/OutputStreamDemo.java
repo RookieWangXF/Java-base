@@ -6,11 +6,17 @@ import java.io.*;
  * Created by Rookie on 2016/4/19.
  */
 public class OutputStreamDemo {
-    public static void OutputStream01(String path) throws IOException {
+    /**
+     * 97会转化为char类型的值
+     * @param path
+     * @throws IOException
+     */
+    public void OutputStream01(String path) throws IOException {
         File file = new File(path);
         OutputStream out = new FileOutputStream(file);
 
         out.write(97);
+        out.close();
     }
 
     /**
@@ -18,12 +24,13 @@ public class OutputStreamDemo {
      * @param path
      * @throws IOException
      */
-    public static void OutputStream02(String path) throws IOException {
+    public void OutputStream02(String path) throws IOException {
         File file = new File(path);
         OutputStream out = new FileOutputStream(file);
 
-        byte[] bytes = "abcdefghijklmn".getBytes();
+        byte[] bytes = "abcdefghijklmn你好".getBytes();
         out.write(bytes);
+        out.close();
     }
 
     /**
@@ -31,7 +38,7 @@ public class OutputStreamDemo {
      * @param path
      * @throws IOException
      */
-    public static void OutputStream03(String path) throws IOException {
+    public void OutputStream03(String path) throws IOException {
         File file = new File(path);
         OutputStream out = new FileOutputStream(file);
 

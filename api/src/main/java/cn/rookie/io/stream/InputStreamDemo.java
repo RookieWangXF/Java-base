@@ -66,4 +66,23 @@ public class InputStreamDemo {
             System.out.println(line);
         }
     }
+
+    public static void main(String[] args) throws IOException {
+        InputStream in = System.in;
+        BufferedReader bufr = new BufferedReader(new InputStreamReader(in));
+
+        boolean flag = true;
+        while (flag == true) {
+            System.out.println("请输入数据：");
+            String str = bufr.readLine();
+            System.out.println("请输入的内容为：" + str);
+
+            if (str.matches("\\d+")) {
+                System.out.println("年龄是：" + Integer.parseInt(str));
+                flag = false;
+            } else {
+                System.out.println("年龄输入错误，应该由数字组成");
+            }
+        }
+    }
 }
