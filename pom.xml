@@ -13,6 +13,8 @@
         <module>api</module>
         <module>design</module>
         <module>leetcode</module>
+        <module>jvm</module>
+        <module>effective</module>
     </modules>
 
     <build>

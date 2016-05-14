@@ -7,7 +7,7 @@ package cn.rookie.singleton;
  * Copyright (c) All Rights Reserved.
  */
 public class Singleton02 {
-    private static Singleton02 instance = new Singleton02();
+    private static final Singleton02 instance = new Singleton02();
     private Singleton02() {
 
     }
