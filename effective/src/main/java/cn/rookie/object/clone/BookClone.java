@@ -1,4 +1,4 @@
-package cn.rookie.clone;
+package cn.rookie.object.clone;
 
 /**
  * Created by Rookie on 2016/4/13.

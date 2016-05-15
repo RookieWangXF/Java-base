@@ -1,4 +1,4 @@
-package cn.rookie.hash.bean;
+package cn.rookie.object.hash.bean;
 
 /**
  * Created by fei on 2016/4/9.

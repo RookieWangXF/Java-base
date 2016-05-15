@@ -1,4 +1,4 @@
-package cn.rookie.hash;
+package cn.rookie.object.hash;
 
 /**
  * Created by fei on 2016/4/9.

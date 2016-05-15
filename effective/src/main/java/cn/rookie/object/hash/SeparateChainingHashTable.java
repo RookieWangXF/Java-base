@@ -1,6 +1,7 @@
-package cn.rookie.hash;
+package cn.rookie.object.hash;
 
-import cn.rookie.hash.bean.Employee;
+
+import cn.rookie.object.hash.bean.Employee;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -9,6 +9,10 @@ import java.util.Comparator;
  * Project_name: Algorithm
  * Copyright (c) All Rights Reserved.
  */
+
+/**
+ * 1. Java中所有的Value类都实现了Comparable接口，具有内在的比较性
+ */
 public class ComparableDemo implements Comparable {
 
         private int id;
@@ -75,5 +79,6 @@ public class ComparableDemo implements Comparable {
             System.out.println(a[i]);
         }
     }
+
 
 }
