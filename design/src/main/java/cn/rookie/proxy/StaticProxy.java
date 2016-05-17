@@ -2,7 +2,7 @@ package cn.rookie.proxy;
 
 /**
  * Created by Rookie on 2016/4/12.
- * Description:
+ * Description:静态代理
  * Project_name: Algorithm
  * Copyright (c) All Rights Reserved.
  */
@@ -50,6 +50,4 @@ public class StaticProxy {
         proxy.GiveFlower();
         proxy.GiveMoney();
     }
-
-
 }
