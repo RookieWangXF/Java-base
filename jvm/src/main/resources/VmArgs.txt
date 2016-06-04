@@ -1,0 +1,2 @@
+-verbose:gc -Xms10M -Xmx10M -Xss128k -XX:+PrintGCDetails
+-verbose:gc -Xms10M -Xmx10M -XX:MaxDirectMemorySize=10M -Xss128k -XX:+PrintGCDetails

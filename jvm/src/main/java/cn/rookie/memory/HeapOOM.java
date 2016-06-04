@@ -14,9 +14,12 @@ public class HeapOOM {
     }
 
     public static void main(String[] args) {
+        System.out.println("HeapOOM");
         List<OOMObject> list = new ArrayList<>();
+        int count = 0;
         while (true) {
             list.add(new OOMObject());
+            System.out.println("Instance: " + (++count));
         }
     }
 }
