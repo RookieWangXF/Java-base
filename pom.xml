@@ -15,6 +15,7 @@
         <module>leetcode</module>
         <module>jvm</module>
         <module>effective</module>
+        <module>multi-thread</module>
     </modules>
 
     <build>

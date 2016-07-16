@@ -1,6 +1,7 @@
 package cn.rookie.memory;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -21,5 +22,6 @@ public class HeapOOM {
             list.add(new OOMObject());
             System.out.println("Instance: " + (++count));
         }
+
     }
 }
