@@ -1,5 +1,6 @@
 package cn.rookie.factory;
 abstract class Gun{
+
 	protected int killNum = 0;
 	public abstract void OutLook();
 	public abstract void Method();

@@ -11,6 +11,8 @@ public class AbstractFactory {
 }
 
 interface Gardener {
+    public Fruit createFruit(String name);
+    public Veggie createVeggie(String name);
 }
 
 class NorthernGardener implements Gardener {

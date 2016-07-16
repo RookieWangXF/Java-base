@@ -18,6 +18,7 @@ class Adaptee{
 }
 
 class Adapter implements Target {
+
     private Adaptee adaptee;
 
     public Adapter(Adaptee adaptee) {
@@ -30,8 +31,7 @@ class Adapter implements Target {
 }
 
 
-public class Adapter01 {
-
+public class AdapterDemo {
 
     public static void main(String[] args) {
         Target target = new Adapter(new Adaptee());

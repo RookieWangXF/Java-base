@@ -20,6 +20,10 @@ public class Singleton {
         return instance;
     }
 
+    /**
+     * 设置同步
+     * @return
+     */
     public static synchronized Singleton getInstance2() {
         if (instance == null) {
             instance = new Singleton();
