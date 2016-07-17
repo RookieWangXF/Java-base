@@ -1,4 +1,4 @@
-package cn.rookie.templateMethod;
+package cn.rookie.template;
 
 /**
  * Created by Rookie on 2016/4/12.

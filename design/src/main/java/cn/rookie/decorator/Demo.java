@@ -2,7 +2,7 @@ package cn.rookie.decorator;
 
 /**
  * Created by Rookie on 2016/4/13.
- * Description:
+ * Description:动态的给对象添加功能
  * Project_name: Algorithm
  * Copyright (c) All Rights Reserved.
  */

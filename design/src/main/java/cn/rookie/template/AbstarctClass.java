@@ -1,4 +1,4 @@
-package cn.rookie.templateMethod;
+package cn.rookie.template;
 
 public abstract class AbstarctClass {
 
