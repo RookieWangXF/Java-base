@@ -7,12 +7,17 @@ package cn.rookie.singleton;
  * Copyright (c) All Rights Reserved.
  */
 public class Singleton03 {
+
     private static Singleton03 instance;
 
     private Singleton03() {
 
     }
 
+    /**
+     * 懒汉式的多线程写法
+     * @return
+     */
     public static Singleton03 getInstance() {
         if (instance == null) {
             synchronized (Singleton03.class) {
@@ -20,8 +25,5 @@ public class Singleton03 {
             }
         }
         return instance;
-    }
-    public void speak() {
-        System.out.println("hello  Singleton03");
     }
 }
