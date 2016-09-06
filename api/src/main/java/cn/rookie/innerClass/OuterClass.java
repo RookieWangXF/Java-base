@@ -86,6 +86,11 @@ public class OuterClass {
         public static void display() {
             System.out.println("OuterClass name : " + name);
         }
+
+        @Override
+        public String toString() {
+            return Thread.currentThread().getName() + name1;
+        }
     }
 
     public void staticClass() {
