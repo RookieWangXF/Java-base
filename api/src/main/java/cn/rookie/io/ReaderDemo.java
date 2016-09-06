@@ -13,7 +13,7 @@ public class ReaderDemo {
     public void read(){
         InputStream input = null;
         try {
-            input = new FileInputStream(new File("src/main/resources/io/User.txt"));
+            input = new FileInputStream(new File("src/demo1/resources/io/User.txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

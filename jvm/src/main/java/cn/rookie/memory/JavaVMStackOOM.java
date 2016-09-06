@@ -12,7 +12,7 @@ public class JavaVMStackOOM {
         }
     }
 
-    public void satckLeakByThread() {
+    public void stackLeakByThread() {
         while (true) {
             Thread thread = new Thread(new Runnable() {
                 @Override
@@ -26,6 +26,6 @@ public class JavaVMStackOOM {
 
     public static void main(String[] args) {
         JavaVMStackOOM oom = new JavaVMStackOOM();
-        oom.satckLeakByThread();
+        oom.stackLeakByThread();
     }
 }

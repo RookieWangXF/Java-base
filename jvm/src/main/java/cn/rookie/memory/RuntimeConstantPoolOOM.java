@@ -8,7 +8,7 @@ import java.util.List;
  * Package_name is cn.rookie.memory
  * Description:运行时常量池溢出
  */
-public class RuntimeConstantPoolOOM {
+public class  RuntimeConstantPoolOOM {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();

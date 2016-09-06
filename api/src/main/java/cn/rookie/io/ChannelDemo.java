@@ -17,7 +17,7 @@ public class ChannelDemo {
     public static void read() throws IOException {
         RandomAccessFile aFile = null;
         try {
-            aFile = new RandomAccessFile("src/main/resources/io/User.txt","rw");
+            aFile = new RandomAccessFile("src/demo1/resources/io/User.txt","rw");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

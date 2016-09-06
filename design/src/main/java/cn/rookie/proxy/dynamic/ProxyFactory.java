@@ -8,7 +8,6 @@ import java.lang.reflect.Proxy;
  * Created by Rookie on 2016/5/17.
  * Package_name is cn.rookie.proxy.dynamic
  * Description: 代理对象，不需要实现接口，给所有类创建代理对象
- * 但是要求实现的类必须是实现接口的
  */
 public class ProxyFactory {
 

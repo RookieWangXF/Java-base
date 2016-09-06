@@ -8,14 +8,14 @@ import java.io.*;
 public class ReadObj {
 
     public static void readObj() throws IOException, ClassNotFoundException {
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("E:\\program\\java\\Java-base\\api\\src\\main\\resources\\io\\serializable\\obj.object"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("E:\\program\\java\\Java-base\\api\\src\\demo1\\resources\\io\\serializable\\obj.object"));
         Person p = (Person) ois.readObject();
         System.out.println(p);
         ois.close();
     }
 
     public static void writeObj() throws IOException {
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("E:\\program\\java\\Java-base\\api\\src\\main\\resources\\io\\serializable\\obj.object"));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("E:\\program\\java\\Java-base\\api\\src\\demo1\\resources\\io\\serializable\\obj.object"));
         oos.writeObject(new Person("feifei", 24));
         oos.close();
     }

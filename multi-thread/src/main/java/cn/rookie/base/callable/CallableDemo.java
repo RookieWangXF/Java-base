@@ -22,6 +22,7 @@ public class CallableDemo {
 
         for (Future<String> fs : results) {
             try {
+                System.out.println("future done? " + fs.isDone());
                 System.out.println(fs.get());
             } catch (InterruptedException e) {
                 System.out.println(e);

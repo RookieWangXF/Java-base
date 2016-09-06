@@ -7,4 +7,6 @@ package cn.rookie.proxy.dynamic;
  */
 public interface IUser {
     public void save();
+
+    public void say();
 }

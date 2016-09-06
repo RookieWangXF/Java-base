@@ -11,7 +11,7 @@ public class TestFileInfo {
 
     @Test
     public void testPringFileInfo() {
-        File file = new File("src/main/resources/io/stream/OutDemo02.txt");
+        File file = new File("src/demo1/resources/io/stream/OutDemo02.txt");
         FileInfo.printFileInfo(file);
     }
 

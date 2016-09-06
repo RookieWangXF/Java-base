@@ -17,7 +17,7 @@ public class TestWriterDemo {
 
     @Test
     public void testwriter01() throws IOException {
-        String path = "src/main/resources/io/stream/WriterDemo.txt";
+        String path = "src/demo1/resources/io/stream/WriterDemo.txt";
         writerDemo.writer01(path);
     }
 }

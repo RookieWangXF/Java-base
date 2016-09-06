@@ -13,7 +13,7 @@ public class TestRead {
 
     @Test
     public void read() throws IOException {
-        String path = "src/main/resources/aa.properties";
+        String path = "src/demo1/resources/aa.properties";
         Read.read(path);
     }
 }

@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class TestReaderDemo {
     private ReaderDemo readerDemo;
-    private String path = "src/main/resources/StreamDemo.txt";
+    private String path = "src/demo1/resources/StreamDemo.txt";
     @Before
     public void setUp() {
         readerDemo = new ReaderDemo();

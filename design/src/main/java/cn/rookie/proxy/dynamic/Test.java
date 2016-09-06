@@ -13,5 +13,9 @@ public class Test {
         //给目标对象创建代理对象
         IUser proxy = (IUser) new ProxyFactory(target).getProxyInstance();
         proxy.save();
+        proxy.say();
+        System.out.println(proxy);
+        System.out.println(target.getClass());
+        System.out.println(proxy.getClass());
     }
 }

@@ -16,6 +16,14 @@ public class ConcurrentHashMapDemo {
     private HashMap<Integer, String> hashMap = new HashMap<>();
     private Hashtable<Integer, String> hashtable = new Hashtable<>();
 
+    public ConcurrentHashMap getConcurrentHashMap() {
+        return concurrentHashMap;
+    }
+
+    public void setConcurrentHashMap(ConcurrentHashMap concurrentHashMap) {
+        this.concurrentHashMap = concurrentHashMap;
+    }
+
     public void threadPut(Map<Integer, String> map) {
         for (int i = 0; i < 1000; i++) {
             Thread thread = new Thread(new Runnable() {
@@ -29,6 +37,10 @@ public class ConcurrentHashMapDemo {
             thread.start();
         }
 
+    }
+
+    public void printMap(Map<Integer, String> map){
+        map.forEach((key, value) -> System.out.printf("%s = %s\n", key, value));
     }
 
 }

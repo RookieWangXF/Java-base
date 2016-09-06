@@ -11,4 +11,10 @@ public class UserImpl implements IUser {
     public void save() {
         System.out.println("————我是一个子类---");
     }
+
+    @Override
+    public void say() {
+        System.out.println("say()");
+    }
+
 }

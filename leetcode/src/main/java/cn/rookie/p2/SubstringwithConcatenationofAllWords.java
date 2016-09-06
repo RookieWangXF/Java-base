@@ -6,7 +6,7 @@ import java.util.List;
 
 public class SubstringwithConcatenationofAllWords {
 
-	public static void main(String[] args) {
+	public static void demo1(String[] args) {
 
 	}
 	public List<Integer> findSubstring(String S, String[] L) {

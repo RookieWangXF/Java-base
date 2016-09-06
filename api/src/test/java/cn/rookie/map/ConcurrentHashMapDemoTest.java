@@ -29,6 +29,8 @@ public class ConcurrentHashMapDemoTest {
     @Test
     public void ConcurrentHashPut() throws Exception {
         ConcurrentHashMapDemo demo = new ConcurrentHashMapDemo();
-        demo.threadPut(new ConcurrentHashMap<Integer, String>());
+        demo.setConcurrentHashMap(new ConcurrentHashMap());
+        demo.threadPut(demo.getConcurrentHashMap());
+        demo.printMap(demo.getConcurrentHashMap());
     }
 }
