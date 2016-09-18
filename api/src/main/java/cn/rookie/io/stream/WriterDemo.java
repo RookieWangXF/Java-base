@@ -12,7 +12,7 @@ public class WriterDemo {
     public void writer01(String path) throws IOException {
         File file = new File(path);
         Writer writer = new FileWriter(file);
-        String str = "asda你好撒大哥噶f";
+        String str = "你好，Hello I am a student";
         writer.write(str);
         writer.close();
     }

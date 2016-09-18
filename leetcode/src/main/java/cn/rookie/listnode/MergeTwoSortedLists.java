@@ -30,8 +30,21 @@ public class MergeTwoSortedLists {
 		}
 		return head.next;  
     }
-	public static void main(String[] args) {
 
+	public ListNode merge(ListNode pHead1, ListNode pHead2) {
+		if (pHead1 == null)
+			return pHead2;
+		if (pHead2 == null)
+			return pHead1;
+		ListNode pHead = null;
+
+		if (pHead1.val < pHead2.val) {
+			pHead = pHead1;
+			pHead.next = merge(pHead1.next, pHead2);
+		} else {
+			pHead = pHead2;
+			pHead.next = merge(pHead1, pHead2.next);
+		}
+		return pHead;
 	}
-
 }

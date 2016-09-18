@@ -22,7 +22,7 @@ public class TestOutPutStreamDemo {
     }
     @Test
     public void testStream02() throws IOException {
-        String path = "src/demo1/resources/io/stream/OutDemo02.txt";
+        String path = "src/main/resources/io/stream/OutDemo02.txt";
         outputStreamDemo.OutputStream02(path);
     }
     @Test

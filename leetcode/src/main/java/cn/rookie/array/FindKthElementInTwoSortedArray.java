@@ -5,7 +5,7 @@ package cn.rookie.array;
  * Package_name is cn.rookie.array
  * Description:
  */
-public class FindKthElement {
+public class FindKthElementInTwoSortedArray {
 
     /**
      * K的时间复杂度

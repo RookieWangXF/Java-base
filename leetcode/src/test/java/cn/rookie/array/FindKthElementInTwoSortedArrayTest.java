@@ -8,7 +8,7 @@ import org.junit.Test;
  * Package_name is cn.rookie.array
  * Description:
  */
-public class FindKthElementTest {
+public class FindKthElementInTwoSortedArrayTest {
 
 
 
@@ -21,7 +21,7 @@ public class FindKthElementTest {
     public void findK2() throws Exception {
         int[] arrA = {1, 4, 5, 7};
         int[] arrB = {2, 3, 6};
-        FindKthElement findKthElm = new FindKthElement();
+        FindKthElementInTwoSortedArray findKthElm = new FindKthElementInTwoSortedArray();
         System.out.println(findKthElm.findKthSmallest(arrA,arrB,1));
         System.out.println(findKthElm.findKthSmallest(arrA,arrB,2));
         System.out.println(findKthElm.findKthSmallest(arrA,arrB,3));
@@ -36,7 +36,7 @@ public class FindKthElementTest {
     public void findK() throws Exception {
         int[] arrA = {1, 4, 5, 7};
         int[] arrB = {2, 3, 6};
-        FindKthElement findKthElm = new FindKthElement();
+        FindKthElementInTwoSortedArray findKthElm = new FindKthElementInTwoSortedArray();
         System.out.println(findKthElm.findK(arrA, arrB, 1));
         System.out.println(findKthElm.findK(arrA, arrB, 2));
         System.out.println(findKthElm.findK(arrA, arrB, 3));
