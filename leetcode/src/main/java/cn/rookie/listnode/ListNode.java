@@ -9,6 +9,10 @@ package cn.rookie.listnode;
 public class ListNode {
     int val;
     ListNode next;
+
+    ListNode() {
+        this.next = null;
+    }
     ListNode(int x) {
         this.val = x;
         this.next = null;
