@@ -1,4 +1,4 @@
-package baidu;
+package company.baidu;
 
 /**
  * Created by Rookie on 2016/9/21.
